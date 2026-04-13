@@ -9,7 +9,7 @@ import InputMembership from '../InputMembership'
 const Jumbotron = () => {
     const [language] = useAtom(languageAtom)
   return (
-    <div>
+    <div className='mb-24 px-8'>
         <img 
             src={JUMBOTRON_IMAGE} 
             alt="Jumbotron-bg"
