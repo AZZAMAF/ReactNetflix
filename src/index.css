@@ -1,2 +1,11 @@
 @import "tailwindcss";
 
+@import "tailwindcss";
+
+/* Tambahin ini di bawahnya */
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
