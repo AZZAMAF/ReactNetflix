@@ -1,12 +1,13 @@
 
 
 import DefaultLayout from '../../components/Layouts/DefaultLayout/index.jsx'
+import Jumbotron from '../../components/Moduls/Jumbotron/index.jsx'
 
 function Landing(){
 
   return (
     <DefaultLayout>
-      <h1>Landing</h1>
+      <Jumbotron/>
     </DefaultLayout>
   )
 }

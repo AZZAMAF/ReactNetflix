@@ -1,11 +1,11 @@
 import React from 'react'
 import NavBar from '../../../pages/Landing/NavBar'
 
-const DefaultLayout = () => {
+const DefaultLayout = ({children}) => {
   return (
     <div>
       <NavBar/>
-      DefaultLayout
+      {children}
     </div>
   )
 }
