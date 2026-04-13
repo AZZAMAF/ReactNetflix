@@ -2,6 +2,7 @@
 
 import DefaultLayout from '../../components/Layouts/DefaultLayout/index.jsx'
 import Jumbotron from '../../components/Moduls/Jumbotron/index.jsx'
+import SectionDownload from '../../components/Moduls/SectionContents/SectionDownload.jsx'
 import SectionEnjoy from '../../components/Moduls/SectionContents/SectionEnjoy.jsx'
 
 function Landing(){
@@ -10,6 +11,7 @@ function Landing(){
     <DefaultLayout>
       <Jumbotron/>
       <SectionEnjoy/>
+      <SectionDownload/>
     </DefaultLayout>
   )
 }
