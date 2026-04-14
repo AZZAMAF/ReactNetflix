@@ -15,7 +15,7 @@ const SectionWatch = () => {
             render={(item, index) => (
                 <div key={index}>
                     <h2 className='text-5xl font-black'>{item.title}</h2>
-                    <p className='text-2xl'>{item.desc }</p>
+                    <p className='text-2xl mt-4'>{item.desc }</p>
                 </div>
             )}
         />
