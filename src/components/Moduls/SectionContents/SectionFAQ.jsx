@@ -1,10 +1,10 @@
-import { useAtom } from 'jotai'
+import EachUtils from '@/Utils/EachUtils'
+import InputMembership from '@mods/InputMembership'
 import React, { useState } from 'react'
-import { languageAtom } from '../../../jotai/atoms'
-import { FAQ_TITLE_EN, FAQ_TITLE_ID, LIST_FAQ_EN, LIST_FAQ_ID } from '../../../constans/listFAQ'
-import EachUtils from '../../../Utils/EachUtils'
+import { FAQ_TITLE_EN, FAQ_TITLE_ID, LIST_FAQ_EN, LIST_FAQ_ID } from '@/constans/listFAQ'
+import { useAtom } from 'jotai'
+import { languageAtom } from '@/jotai/atoms'
 import {motion} from "framer-motion"
-import InputMembership from '../InputMembership'
 
 const SectionFAQ = () => {
     const [language] = useAtom(languageAtom)

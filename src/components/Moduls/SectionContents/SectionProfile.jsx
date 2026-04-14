@@ -1,10 +1,10 @@
 import React from 'react'
-import SectionLayout from '../../Layouts/SectionLayout'
-import { PROFILE_KIDS_IMAGE } from '../../../constans/listAsset'
-import EachUtils from '../../../Utils/EachUtils'
-import { LIST_CONTENT_4_EN, LIST_CONTENT_4_ID } from '../../../constans/listContent'
+import SectionLayout from '@layouts/SectionLayout/index.jsx'
+import EachUtils from '@/Utils/EachUtils'
+import { PROFILE_KIDS_IMAGE } from '@/constans/listAsset'
+import { LIST_CONTENT_4_EN, LIST_CONTENT_4_ID } from '@/constans/listContent'
 import { useAtom } from 'jotai'
-import { languageAtom } from '../../../jotai/atoms'
+import { languageAtom } from '@/jotai/atoms'
 
 const SectionProfile = () => {
     const [language]= useAtom(languageAtom)

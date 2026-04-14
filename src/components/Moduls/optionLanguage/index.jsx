@@ -1,8 +1,8 @@
 import React from "react";
-import EachUtils from "../../../Utils/EachUtils.jsx";
-import { LIST_LANGUAGE } from "../../../constans/listLanguage";
+import EachUtils from "@/Utils/EachUtils.jsx";
+import { LIST_LANGUAGE } from "@/constans/listLanguage";
 import { useAtom } from "jotai";
-import { languageAtom } from "../../../jotai/atoms.js";
+import { languageAtom } from "@/jotai/atoms.js";
 
 
 const OptionLanguage = () => {

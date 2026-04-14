@@ -1,13 +1,11 @@
-
-
-import DefaultLayout from '../../components/Layouts/DefaultLayout/index.jsx'
-import Footer from '../../components/Moduls/Footer/index.jsx'
-import Jumbotron from '../../components/Moduls/Jumbotron/index.jsx'
-import SectionDownload from '../../components/Moduls/SectionContents/SectionDownload.jsx'
-import SectionEnjoy from '../../components/Moduls/SectionContents/SectionEnjoy.jsx'
-import SectionFAQ from '../../components/Moduls/SectionContents/SectionFAQ.jsx'
-import SectionProfile from '../../components/Moduls/SectionContents/SectionProfile.jsx'
-import SectionWatch from '../../components/Moduls/SectionContents/SectionWatch.jsx'
+import DefaultLayout from "@layouts/DefaultLayout"
+import Footer from "@mods/Footer"
+import Jumbotron from "@mods/Jumbotron"
+import SectionDownload from "@mods/SectionContents/SectionDownload"
+import SectionEnjoy from "@mods/SectionContents/SectionEnjoy"
+import SectionFAQ from "@mods/SectionContents/SectionFAQ"
+import SectionProfile from "@mods/SectionContents/SectionProfile"
+import SectionWatch from "@mods/SectionContents/SectionWatch"
 
 function Landing(){
 

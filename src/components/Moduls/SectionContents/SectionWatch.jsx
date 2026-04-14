@@ -1,10 +1,10 @@
 import React from 'react'
-import EachUtils from '../../../Utils/EachUtils'
-import { LIST_CONTENT_3_EN, LIST_CONTENT_3_ID } from '../../../constans/listContent'
-import SectionLayout from '../../Layouts/SectionLayout'
-import { WATCH_DEVICE_IMAGE, WATCH_DEVICE_VIDEO } from '../../../constans/listAsset'
+import EachUtils from '@/Utils/EachUtils'
+import SectionLayout from '@layouts/SectionLayout/index.jsx'
+import { LIST_CONTENT_3_EN, LIST_CONTENT_3_ID } from '@/constans/listContent'
+import { WATCH_DEVICE_IMAGE, WATCH_DEVICE_VIDEO } from '@/constans/listAsset'
 import { useAtom } from 'jotai'
-import { languageAtom } from '../../../jotai/atoms'
+import { languageAtom } from '@/jotai/atoms'
 
 const SectionWatch = () => {
     const [language] = useAtom(languageAtom)

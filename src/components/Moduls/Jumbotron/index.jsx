@@ -1,10 +1,10 @@
 import React from 'react'
-import { JUMBOTRON_IMAGE } from '../../../constans/listAsset'
-import EachUtils from '../../../Utils/EachUtils'
+import EachUtils from '@/Utils/EachUtils'
+import InputMembership from '@mods/InputMembership'
+import { JUMBOTRON_IMAGE } from '@/constans/listAsset'
 import { useAtom } from 'jotai'
-import { languageAtom } from '../../../jotai/atoms'
-import { LIST_JUMBOTRON_EN, LIST_JUMBOTRON_ID } from '../../../constans/listJumbotron'
-import InputMembership from '../InputMembership'
+import { languageAtom } from '@/jotai/atoms'
+import { LIST_JUMBOTRON_EN, LIST_JUMBOTRON_ID } from '@/constans/listJumbotron'
 
 const Jumbotron = () => {
     const [language] = useAtom(languageAtom)

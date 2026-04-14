@@ -1,10 +1,10 @@
 import React from 'react'
-import SectionLayout from '../../Layouts/SectionLayout'
-import { DOWNLOAD_COVER_IMAGE, DOWNLOAD_PHONE_IMAGE } from '../../../constans/listAsset'
-import EachUtils from '../../../Utils/EachUtils'
-import { LIST_CONTENT_2_EN, LIST_CONTENT_2_ID } from '../../../constans/listContent'
+import SectionLayout from '@layouts/SectionLayout/index.jsx'
+import EachUtils from '@/Utils/EachUtils'
+import { DOWNLOAD_COVER_IMAGE, DOWNLOAD_PHONE_IMAGE } from '@/constans/listAsset'
+import { LIST_CONTENT_2_EN, LIST_CONTENT_2_ID } from '@/constans/listContent'
 import { useAtom } from 'jotai'
-import { languageAtom } from '../../../jotai/atoms'
+import { languageAtom } from '@/jotai/atoms'
 
 const SectionDownload = () => {
     const [language] = useAtom(languageAtom)
