@@ -13,7 +13,7 @@ const InputMembership = () => {
                 of={language == "en" ? LIST_CTA_EN : LIST_CTA_ID}
                 render={(item, index) => (
                     <div key={index}>
-                        <h3>{item.title}</h3>
+                        <h3 className='text-2xl'>{item.title}</h3>
                         <div className='flex flex-col md:flex-row justify-center items-start gap-2 py-4 w-full max-w-2xl mx-auto'>
 
                             {/* BUNGKUS INPUT DAN LABEL DI SINI */}
