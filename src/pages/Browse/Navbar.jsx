@@ -1,8 +1,9 @@
-import InputSearchMovies from '@mods/BrowsePage/InputSearchMovies'
+
 import { LIST_NAVBAR } from '@/constans/listNavbar'
 import EachUtils from '@/Utils/EachUtils'
 import React from 'react'
 import AccountMenu from '@/components/Moduls/BrowsePage/AccountMenu'
+import InputSearchMovies from '@/components/Moduls/BrowsePage/InputSearchMovies'
 
 const Navbar = () => {
   return (

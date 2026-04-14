@@ -5,22 +5,26 @@ import {motion} from "framer-motion"
 const InputSearchMovies = () => {
     const [isShow, setIsShow] = useState(false)
   return (
-    <div className='relative'>
-        <motion.input 
-            initial={{ translateX: -20}}
-            animate={{ translateX: isShow ? 0 : -20}}
-            className='bg-black border py-2 pl-12' 
-            style={{display: isShow ? "block" : "none" }}
-            placeholder='title, people, genres...'
-        />
-        <GoSearch 
-            onClick={()=> setIsShow(!isShow)}
-            className={isShow ? 'absolute top-1/2 -translate-y-1/2 left-3 z-10' :
-                null
-            } 
-            size={24}
-        />
-    </div>
+    <div className='relative flex items-center'>
+            {/* Icon ditaruh di atas input secara absolut */}
+            <GoSearch 
+                onClick={() => setIsShow(!isShow)}
+                className='absolute left-3 z-20 cursor-pointer' 
+                size={22}
+            />
+            
+            <motion.input 
+                // Animasi melebar (width) dan muncul (opacity)
+                initial={{ width: 0, opacity: 0 }}
+                animate={{ 
+                    width: isShow ? 250 : 0, 
+                    opacity: isShow ? 1 : 0 
+                }}
+                transition={{ duration: 0.3 }}
+                className='bg-black border border-white text-white py-1.5 pl-10 outline-none'
+                placeholder='Titles, people, genres...'
+            />
+        </div>
   )
 }
 
