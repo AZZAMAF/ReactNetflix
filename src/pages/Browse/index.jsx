@@ -1,9 +1,11 @@
+import BrowseLayout from "@/components/Layouts/BrowseLayout"
+
+
 function Browse(){
     return(
-        <main>
-            <h1>Browese Movies</h1>
-            <p>hello</p>
-        </main>
+        <BrowseLayout>
+        
+        </BrowseLayout>
     )
 }
 

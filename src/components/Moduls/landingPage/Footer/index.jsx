@@ -1,6 +1,6 @@
 import React from 'react'
 import EachUtils from '@/Utils/EachUtils'
-import OptionLanguage from '@mods/optionLanguage'
+import OptionLanguage from '@/components/Moduls/landingPage/optionLanguage'
 import { LIST_FOOTER_EN, LIST_FOOTER_ID } from '@/constans/listFooter'
 import { useAtom } from 'jotai'
 import { languageAtom } from '@/jotai/atoms'

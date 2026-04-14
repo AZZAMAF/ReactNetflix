@@ -1,6 +1,6 @@
 import React from 'react'
 import EachUtils from '@/Utils/EachUtils'
-import InputMembership from '@mods/InputMembership'
+import InputMembership from '@/components/Moduls/landingPage/InputMembership'
 import { JUMBOTRON_IMAGE } from '@/constans/listAsset'
 import { useAtom } from 'jotai'
 import { languageAtom } from '@/jotai/atoms'

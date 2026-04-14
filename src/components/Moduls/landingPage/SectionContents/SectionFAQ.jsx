@@ -1,5 +1,5 @@
 import EachUtils from '@/Utils/EachUtils'
-import InputMembership from '@mods/InputMembership'
+import InputMembership from '@/components/Moduls/landingPage/InputMembership'
 import React, { useState } from 'react'
 import { FAQ_TITLE_EN, FAQ_TITLE_ID, LIST_FAQ_EN, LIST_FAQ_ID } from '@/constans/listFAQ'
 import { useAtom } from 'jotai'
