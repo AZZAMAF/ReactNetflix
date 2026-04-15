@@ -1,12 +1,14 @@
 import { LIST_VIDEOS } from '@/constans/dummyVideo'
-import EachUtils from '@/Utils/EachUtils'
 import React, { useState } from 'react'
 import MovieCard from '../MovieCard'
 import CarouselLayout from '@/components/Layouts/CarouselLayout'
+import { useAtom } from 'jotai'
+import { idMovieAtom } from '@/jotai/atoms'
+import EachUtils from '@/Utils/EachUtils'
 
 const MovieList = ({title}) => {
   const [isHover, setIsHover] = useState(false)
-  const [idMovie, setIdMovie] = useState(null)
+  const [, setIdMovie] = useAtom(idMovieAtom)
   return (
     <section className='px-8 py-4'>
         <h3 className='text-2xl font-semibold mb-2'>{title}</h3>
@@ -22,8 +24,10 @@ const MovieList = ({title}) => {
                     setIdMovie(null )
                   }}
                 >
-                  <MovieCard data={item} isHover={isHover} idMovie={idMovie }
-                    setIsHover={setIsHover} setIdMovie={setIdMovie}/>
+                  <MovieCard 
+                    data={item} 
+                    isHover={isHover} 
+                    setIsHover={setIsHover} />
                 </div>
               )}
             />

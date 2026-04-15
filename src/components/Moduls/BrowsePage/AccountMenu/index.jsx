@@ -14,7 +14,7 @@ const AccountMenu = () => {
             {/* Menu: Gunakan atribut popover dan anchor */}
             <el-menu 
                 anchor="bottom end" 
-                popover 
+                 
                 className="w-44 origin-top-right divide-y divide-white/10 rounded-md bg-stone-900 text-white outline-1 outline-white/10 transition transition-discrete data-closed:scale-95 data-closed:opacity-0"
             >
                 <div className="py-1">

@@ -1,6 +1,6 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
-@import "tailwindcss";
 
 /* Tambahin ini di bawahnya */
 body {
