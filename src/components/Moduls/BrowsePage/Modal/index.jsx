@@ -4,6 +4,8 @@ import { useAtom } from 'jotai'
 import React from 'react'
 import { GoPlay, GoPlusCircle } from 'react-icons/go'
 import { MdClose } from 'react-icons/md'
+import Recommendation from './Recommendation.jsx'
+
 
 const Modal = () => {
     const [isOpenModal, setIsOpenModal] = useAtom(isOpenModalAtom)
@@ -45,6 +47,7 @@ const Modal = () => {
                         <p>Popularity:  {DETAIL_VIDEO.popularity}</p>
                     </div>
                 </div>
+                <Recommendation/>
             </div>
         </dialog>
     )
