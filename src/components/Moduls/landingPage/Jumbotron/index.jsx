@@ -13,7 +13,7 @@ const Jumbotron = () => {
         <img 
             src={JUMBOTRON_IMAGE} 
             alt="Jumbotron-bg"
-            className='absolute opacity-60 top-0 left-0 object-cover h-225'
+            className='absolute opacity-60 top-0 left-0 object-cover '
         />
         <EachUtils
             of={language == "en" ? LIST_JUMBOTRON_EN :

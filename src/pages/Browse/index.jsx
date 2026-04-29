@@ -8,9 +8,10 @@ function Browse(){
     return(
         <BrowseLayout>
             <Jumbotron/>
-            <MovieList title={'Popular Movies'}/>
-            <MovieList title={'Top Rated Movies'}/>
-            <MovieList title={'Upcoming Movies'}/>
+            <MovieList title={'Popular Movies'} moviesType={"now_playing"}/>
+            <MovieList title={'Top Rated Movies'} moviesType={"popular"}/>
+            <MovieList title={'Upcoming Movies'} moviesType={"top_rated"}/>
+            {/* <MovieList title={'Upcoming Movies'} moviesType={"upcoming"}/> */}
             <Modal/>
         </BrowseLayout>
     )
